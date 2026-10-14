@@ -1,0 +1,29 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+credentials.json
+token.json
+*.pem
+*.key
+# Generated dependencies and artifacts
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+target/
+.turbo/
+coverage/
+test-results/
+playwright-report/
+*.log
+# Local runtime data
+.runtime/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
