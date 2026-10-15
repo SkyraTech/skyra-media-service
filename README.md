@@ -2,13 +2,17 @@
 
 Provider-independent job management for image and video generation, revisions and deliverables used by Jarvis and commercial products.
 
-## Current status
+Specification only; no generation provider or durable job runner implemented.
 
-New documentation-only project. No image/video generation worker or provider connection has been implemented in this folder.
+## Maintained documentation
 
-This documentation describes the target. It does not claim implementation, deployment or passing runtime tests. No source code was changed in the documentation reset.
+- [Architecture, database and implementation decisions](docs/ARCHITECTURE.md)
+- [Functionality and requirements](docs/FUNCTIONALITY.md)
+- [Development status, tasks and verification](docs/DEVELOPMENT.md)
 
-## Documents
+[Repository catalogue](../REPOSITORIES.md).
+
+## Initial project documents — retain and maintain
 
 - [Product requirements](docs/01_PRODUCT_REQUIREMENTS.md)
 - [System architecture](docs/02_SYSTEM_ARCHITECTURE.md)
@@ -19,7 +23,3 @@ This documentation describes the target. It does not claim implementation, deplo
 - [API and event contracts](docs/07_API_AND_EVENTS.md)
 - [Testing and acceptance](docs/08_TESTING_AND_ACCEPTANCE.md)
 - [Security and operations](docs/09_SECURITY_AND_OPERATIONS.md)
-
-## Ecosystem
-
-[Project boundaries and build order](../skyra-service-contracts/docs/10_ECOSYSTEM_ARCHITECTURE.md).
